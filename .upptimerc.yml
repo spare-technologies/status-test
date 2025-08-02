@@ -1,14 +1,6 @@
 owner: spare-technologies
 repo: status-test
 sites:
-  - name: Website
-    url: https://tryspare.com
-  - name: Docs
-    url: https://docs.tryspare.com
-  - name: Dashboard
-    url: https://dashboard.tryspare.com
-  - name: Dashboard-Sandbox
-    url: https://dashboard.sandbox.tryspare.com
   - name: Google
     url: https://www.google.com
   - name: GitHub
@@ -17,28 +9,5 @@ assignees:
   - vnairkronovate
 status-website:
   baseUrl: /status-test
-  logoUrl: https://tryspare.com/assets/images/homepage/logo-blue.png
-  name: Spare Technologies Status
+  name: Status Test Debug
   theme: light
-  favicon: https://tryspare.com/assets/res/favicons/favicon-32x32.png
-  robotsText: "User-agent: * \n Disallow: /"
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-workflowSchedule:
-  graphs: "0 0 * * *"
-  responseTime: "0 23 * * *"
-  staticSite: "0 1 * * *"
-  summary: "0 0 * * *"
-  updateTemplate: "0 2 * * *"
-  updates: "0 3 * * *"
-  uptime: "*/5 * * * *"
-commitMessages:
-  readmeContent: "📄 Update summary in README"
-  responseTimeCommit: "📈 Update response time"
-  graphsCommit: "📊 Update graphs"
-  staticSiteCommit: "🔨 Build status page"
-  statusChange: "🟥 {site} is down"
-  statusChangeNotification: "🟩 {site} is back up"
