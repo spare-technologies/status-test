@@ -1,0 +1,32 @@
+# Change these first
+owner: spare-technologies # Your GitHub organization
+repo: status-test # The name of this repository
+
+sites:
+  - name: Website
+    url: https://tryspare.com
+  - name: Docs
+    url: https://docs.tryspare.com
+  - name: Dashboard
+    url: https://dashboard.tryspare.com
+  - name: Dashboard(Sandbox)
+    url: https://dashboard.sandbox.tryspare.com
+
+assignees:
+  - vnairkronovate
+
+status-website:
+  baseUrl: /status-test
+  logoUrl: https://tryspare.com/assets/images/homepage/logo-blue.png
+  name: Status Test
+  theme: light
+  favicon: https://tryspare.com/assets/res/favicons/favicon-32x32.png
+  robotsText: "User-agent: * \n Disallow: /"
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+
+# Upptime also supports notifications, assigning issues, and more
+# See https://upptime.js.org/docs/configuration
