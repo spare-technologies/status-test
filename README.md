@@ -1,20 +1,25 @@
-# [📈 Live Status](https://spare-technologies.github.io/status-test): Status Test
+# Status Test
 
-This repository contains the open-source uptime monitor and status page for testing purposes.
+🚀 **Service Status Dashboard**
 
-Powered by [Upptime](https://upptime.js.org) running on Argo Workflows.
+This repository contains an Upptime-powered status page for monitoring various services.
 
-## 📊 Live Status
+## 🌐 Status Page
 
-[![Status Page](https://img.shields.io/badge/Status%20Page-Live-brightgreen)](https://spare-technologies.github.io/status-test)
+View the live status page: [https://spare-technologies.github.io/status-test/](https://spare-technologies.github.io/status-test/)
 
-## 🗂️ Monitored Sites
+## 📊 Monitored Services
 
-- **Website**: https://tryspare.com
-- **Docs**: https://docs.tryspare.com  
-- **Dashboard**: https://dashboard.tryspare.com
-- **Dashboard(Sandbox)**: https://dashboard.sandbox.tryspare.com
+- Google
+- GitHub  
+- Example
+
+## 🔧 Powered by
+
+- [Upptime](https://github.com/upptime/upptime) - Open-source uptime monitor
+- [GitHub Actions](https://github.com/features/actions) - Automated monitoring
+- [GitHub Pages](https://pages.github.com/) - Static site hosting
 
 ---
 
-This status page is powered by Argo Workflows running in Kubernetes.
+📈 **Status**: All systems operational

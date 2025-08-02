@@ -5,9 +5,19 @@ sites:
     url: https://www.google.com
   - name: GitHub
     url: https://github.com
+  - name: Example
+    url: https://example.com
 assignees:
   - vnairkronovate
 status-website:
   baseUrl: /status-test
-  name: Status Test Debug
+  name: Status Test
   theme: light
+  introTitle: "Status Page"
+  introMessage: "This is a test status page for monitoring services."
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  uptime: "*/5 * * * *"
